@@ -1,0 +1,107 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	font-family:Arial,sans-serif;
+	font-size:13px;
+}
+#container{
+    width: 580px;
+    margin:0 auto;
+    text-align:center;
+    position:relative;
+    top:200px;
+}
+
+header{
+    position:absolute;
+    right:0;
+    top:5px;
+    margin:10px;
+    
+}
+
+#logo{
+	width:272px;
+	height:92px;
+	background:url('google.png') top left no-repeat;
+	background-size:100%;
+	text-indent:-9999px;
+	margin:0 auto;
+}
+
+input[type="search"]{
+    width:560px;
+    height:30px;
+    padding: 5px;
+    display:block;
+    margin : 20px;
+    font-size: 1.4em;
+}
+
+input[type="search"]:hover{
+    border-color: #333;
+}
+
+input[type="submit"]{
+    padding:5px;
+    margin:0 5px 10px;
+    font-size:0.8em;
+    font-weight:bolder;
+}
+
+input[type="submit"]:hover{
+    cursor:pointer;
+}
+
+footer{
+    position:absolute;
+    bottom:4px;
+    width:96%;
+    padding:2%;
+    height:0px;
+    background-color: rgb(240,240,240);
+}
+nav{
+    display: block;
+    
+}
+
+nav ul li{
+    text-decoration: none;
+    display: inline;
+    padding:10px;
+    margin:10px 0 10px;
+}
+
+#footerleft{
+    float:left;
+}
+
+#footerright{
+    position:absolute;
+    right:0;
+    float:right;
+    
+}
+
+a:link{
+    text-decoration: none;
+    color:grey;
+}
+
+a:visited{
+    text-decoration: none;
+    color:grey;
+}
+
+a:hover{
+    text-decoration: underline;
+    color:black;
+}
+
+a:active{
+    
+}
